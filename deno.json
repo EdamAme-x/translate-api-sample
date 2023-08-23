@@ -1,0 +1,10 @@
+{
+    "tasks": {
+        "start": "deno run --allow-all --watch main.ts"
+    }, 
+    "imports": {
+        "oak": "https://deno.land/x/oak/mod.ts",
+        "oakCors": "https://deno.land/x/cors/mod.ts",
+        "parseLegal": "./parseLegal.ts"
+    }
+}
